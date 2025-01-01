@@ -135,7 +135,7 @@
 /* Extra small screens (very small phones) */
 @media (max-width: 480px) {
     .name {
-        font-size: 30px;
+        font-size: 25px;
         letter-spacing: 1px;
     }
 
