@@ -31,9 +31,10 @@ html {
     color: white;
 }
 .fullName {
-    left: 58px;
+    left: 59px;
     bottom: 34px;
     font-size: 7.5px;
+    padding-left: 2px;
 }
 .major {
     left: 69px;
