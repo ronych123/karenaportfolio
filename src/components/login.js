@@ -4,7 +4,7 @@ import './../style/login.css';
 
 function LoginPage() {
   const [password, setPassword] = useState('');
-  const correctPassword = 'yourPassword'; // Set your password here
+  const correctPassword = 'karenak@123987'; // Set your password here
 
   const handleLogin = (e) => {
     e.preventDefault();
