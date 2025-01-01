@@ -1,0 +1,27 @@
+.about {
+    padding: 100px 20px 40px 20px;
+    background: var(--secondary-color);
+    text-align: center;
+}
+
+.about h2 {
+    font-size: 2.5rem;
+    font-weight: 500;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.about p {
+    font-size: 1.2rem;
+    line-height: 1.8;
+    margin-bottom: 30px;
+    max-width: 800px;
+    max-height: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    color: var(--light-gray);
+}
+section {
+    padding: 20px;
+    min-height: 90vh;
+}

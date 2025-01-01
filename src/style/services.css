@@ -1,0 +1,56 @@
+.services {
+    padding: 100px 20px;
+    background: var(--accent-color); /* Dark background for contrast */
+    text-align: center;
+    color: var(--light-gray); /* Light text for readability */
+}
+
+.services h2 {
+    font-size: 40px;
+    margin-bottom: 40px;
+    color: var(--light-gray); /* Matches the overall text theme */
+}
+
+.services-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.service-card {
+    background: var(--secondary-color); /* Slightly lighter for the card background */
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    transition: all 0.3s ease;
+}
+
+.service-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3); /* More pronounced on hover */
+}
+
+.service-card h3 {
+    font-size: 24px;
+    margin-bottom: 15px;
+    color: var(--light-gray); /* Consistent light text */
+}
+
+.service-card p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: var(--light-gray); /* Matches the rest of the card */
+}
+
+/* Responsive Layout */
+@media (max-width: 1024px) {
+    .services-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 768px) {
+    .services-grid {
+        grid-template-columns: 1fr;
+    }
+}

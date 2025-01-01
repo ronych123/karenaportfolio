@@ -1,0 +1,131 @@
+.skills {
+    padding: 100px 20px 0px 20px;
+    background: var(--light-gray);
+    text-align: center;
+}
+
+.skills h2 {
+    font-size: 36px;
+    color: var(--secondary-color);
+    margin-bottom: 40px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+/* Flexbox grid to make it responsive */
+.skills-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; /* Ensure items fill the width */
+    gap: 30px; /* Space between items */
+    margin: 0 auto;
+    max-width: 100%; /* Ensures full width usage */
+}
+
+/* Skill container */
+.skill {
+    text-align: center;
+    width: calc(33.333% - 20px); /* 3 items per row on larger screens */
+    margin-bottom: 30px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.skill:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+/* Skill image styling - increased size */
+.skill img {
+    width: 110px; /* Increased width */
+    height: 110px; /* Increased height */
+    object-fit: contain;
+    margin-bottom: 20px;
+    transition: transform 0.3s ease;
+}
+
+.skill img:hover {
+    transform: scale(1.1);
+}
+
+.skill p {
+    font-size: 18px;
+    color: var(--secondary-color);
+    font-weight: bold;
+    text-transform: capitalize;
+    letter-spacing: 0.5px;
+}
+
+/* Responsive for larger tablets */
+@media (max-width: 1024px) {
+    .skills h2 {
+        font-size: 32px;
+    }
+
+    .skills-grid {
+        gap: 30px;
+    }
+
+    .skill {
+        width: calc(50% - 20px); /* 2 items per row on medium screens */
+    }
+
+    .skill img {
+        width: 100px; /* Slightly bigger image on medium screens */
+        height: 100px;
+    }
+
+    .skill p {
+        font-size: 16px;
+    }
+}
+
+/* Responsive for small tablets and large phones */
+@media (max-width: 768px) {
+    .skills h2 {
+        font-size: 28px;
+    }
+
+    .skills-grid {
+        gap: 25px;
+    }
+
+    .skill {
+        width: calc(50% - 20px); /* 2 items per row */
+    }
+
+    .skill img {
+        width: 90px; /* Slightly bigger image on smaller tablets */
+        height: 90px;
+    }
+
+    .skill p {
+        font-size: 14px;
+    }
+}
+
+/* Responsive for smaller phones */
+@media (max-width: 480px) {
+    .skills h2 {
+        font-size: 24px;
+    }
+
+    .skills-grid {
+        gap: 20px;
+        justify-content: center; /* Center items on small screens */
+    }
+
+    .skill {
+        width: calc(100% - 20px); /* 1 item per row on small screens */
+    }
+
+    .skill img {
+        width: 80px; /* Bigger image on small screens */
+        height: 80px;
+    }
+
+    .skill p {
+        font-size: 12px;
+    }
+}

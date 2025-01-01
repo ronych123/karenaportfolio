@@ -1,0 +1,154 @@
+.home {
+    height: 100vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: var(--light-gray);
+    background-size: cover;
+    color: white;
+}
+
+.home .intro {
+    position: relative;
+    z-index: 2;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.6);
+    border-radius: 10px;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.5);
+}
+
+.name {
+    font-size: 50px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+.profession {
+    font-size: 29px;
+    font-weight: 300;
+}
+
+.tagline {
+    font-size: 21px;
+    font-weight: 100;
+    margin-top: 15px;
+}
+
+.cta-button {
+    display: inline-block;
+    margin-top: 30px;
+    padding: 15px 30px;
+    background: var(--secondary-color);  /* Royal Purple */
+    color: white;  /* Light Gray text */
+    font-size: 19px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+
+.cta-button:hover {
+    color: white;  /* Change text color to Royal Purple */
+    transform: scale(1.1);
+}
+
+
+.background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: url('https://via.placeholder.com/1500x1000') no-repeat center center;
+    background-size: cover;
+    filter: blur(10px);
+    opacity: 0.5;
+    z-index: 1;
+}
+
+/* Default for larger screens (desktop) */
+.name {
+    font-size: 50px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+.profession {
+    font-size: 29px;
+    font-weight: 300;
+}
+
+.tagline {
+    font-size: 21px;
+    font-weight: 100;
+    margin-top: 15px;
+}
+
+.cta-button {
+    font-size: 19px;
+}
+
+/* Medium screens (tablets) */
+@media (max-width: 1024px) {
+    .name {
+        font-size: 40px;
+        letter-spacing: 2px;
+    }
+
+    .profession {
+        font-size: 24px;
+    }
+
+    .tagline {
+        font-size: 18px;
+    }
+
+    .cta-button {
+        font-size: 17px;
+    }
+}
+
+/* Small screens (mobile phones) */
+@media (max-width: 768px) {
+    .name {
+        font-size: 35px;
+        letter-spacing: 1.5px;
+    }
+
+    .profession {
+        font-size: 20px;
+    }
+
+    .tagline {
+        font-size: 16px;
+    }
+
+    .cta-button {
+        font-size: 15px;
+        padding: 12px 25px; /* Adjust padding for smaller buttons */
+    }
+}
+
+/* Extra small screens (very small phones) */
+@media (max-width: 480px) {
+    .name {
+        font-size: 30px;
+        letter-spacing: 1px;
+    }
+
+    .profession {
+        font-size: 18px;
+    }
+
+    .tagline {
+        font-size: 14px;
+    }
+
+    .cta-button {
+        font-size: 14px;
+        padding: 10px 20px;
+    }
+}
