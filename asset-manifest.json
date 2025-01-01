@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/karenaportfolio/static/css/main.89ca88ea.css",
-    "main.js": "/karenaportfolio/static/js/main.3a57b612.js",
+    "main.css": "/karenaportfolio/static/css/main.86f422dd.css",
+    "main.js": "/karenaportfolio/static/js/main.ae1da338.js",
     "static/js/488.3d7a3d00.chunk.js": "/karenaportfolio/static/js/488.3d7a3d00.chunk.js",
     "index.html": "/karenaportfolio/index.html",
-    "main.89ca88ea.css.map": "/karenaportfolio/static/css/main.89ca88ea.css.map",
-    "main.3a57b612.js.map": "/karenaportfolio/static/js/main.3a57b612.js.map",
+    "main.86f422dd.css.map": "/karenaportfolio/static/css/main.86f422dd.css.map",
+    "main.ae1da338.js.map": "/karenaportfolio/static/js/main.ae1da338.js.map",
     "488.3d7a3d00.chunk.js.map": "/karenaportfolio/static/js/488.3d7a3d00.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.89ca88ea.css",
-    "static/js/main.3a57b612.js"
+    "static/css/main.86f422dd.css",
+    "static/js/main.ae1da338.js"
   ]
 }
