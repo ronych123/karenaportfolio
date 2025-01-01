@@ -7,7 +7,7 @@ export default function Certifications() {
     return (
         <section className="certifications">
             <div className="container">
-                <h2>Certifications & Awards</h2>
+                <h2>Certifications</h2>
                 <div className="certification-grid">
                     <div className="certification">
                         <FontAwesomeIcon icon={faLightbulb} size="3x" style={{ color: 'var(--primary-color)' }} />
