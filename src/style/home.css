@@ -131,11 +131,16 @@
         padding: 12px 25px; /* Adjust padding for smaller buttons */
     }
 }
-
+@media (max-width: 520px) {
+    .name {
+        font-size: 30px;
+        letter-spacing: 1px;
+    }
+}
 /* Extra small screens (very small phones) */
 @media (max-width: 480px) {
     .name {
-        font-size: 25px;
+        font-size: 27px;
         letter-spacing: 1px;
     }
 
