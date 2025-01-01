@@ -57,7 +57,7 @@ function Projects() {
         </div>
         <div className="project">
           <div className="project-image">
-            <img src='images/pjct8.jpg' className='project-image' />
+            <img src='images/pjct8.JPG' className='project-image' />
           </div>
           <h3>A Symphony of Light and Space</h3>
           <p>This kitchen design is a symphony of light and space, where clean lines, minimalist elements, and carefully placed lighting create an airy and inviting atmosphere.</p>
