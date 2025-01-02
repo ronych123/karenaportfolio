@@ -11,7 +11,7 @@ function Projects() {
             <img src='images/pjct1.jpg' className='project-image' />
           </div>
           <h3>Elegance in Every Detail</h3>
-          <p>This kitchen blends functionality with modern aesthetics, creating a perfect space for culinary creativity.</p>
+          <p>A modern, elegant interior with a round dining table, sleek chairs, and a cozy living area featuring a fireplace.</p>
         </div>
         <div className="project">
           <div className="project-image">
